@@ -10,6 +10,11 @@ public:
   ~Input();
 
   void Update();
+  
+  bool UpPressed();
+  bool DownPressed();
+
 
 private:
+  bool up, down;
 };
